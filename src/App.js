@@ -11,7 +11,7 @@ function App() {
         message: newMessage,
       }, {
         headers: {
-          'Authorization': `Bearer ${process.env.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}`,
+          'Authorization': `Bearer 123ywfnh`,
         }
       });
       const message = response.data.data.answer;
